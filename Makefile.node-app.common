@@ -3,7 +3,7 @@ bootstrap:
 	npm install
 
 clean: 
-	rm -rf node_modules
+	rm -rf node_modules Makefile Jenkinsfile
 
 %: 
 	@echo "$*..." 
