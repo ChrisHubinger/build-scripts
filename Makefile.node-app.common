@@ -5,6 +5,9 @@ bootstrap:
 clean: 
 	rm -rf node_modules Makefile Jenkinsfile
 
+build: 
+	docker build .
+
 %: 
 	@echo "$*..." 
 
