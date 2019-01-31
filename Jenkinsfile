@@ -1,1 +1,0 @@
-trigo.build("app", ...)

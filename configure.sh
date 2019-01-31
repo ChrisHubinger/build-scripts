@@ -1,8 +1,6 @@
 # Parse name & techstack from ../../gems.json
 
-set -x
 rm -f Jenkinsfile
-env | sort
 echo "trigo.build(\"app\", ...)" > ../../Jenkinsfile
 
 rm -f Makefile
